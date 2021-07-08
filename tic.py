@@ -3,10 +3,10 @@ def display_board(board):
 
 
     a=('\n ____ ____ ____ ')
-    b=(f'\n| {board[0]}  | {board[1]}  | {board[2]}  |')
-    c=(f'\n| {board[3]}  | {board[4]}  | {board[5]}  |')
-    d=(f'\n| {board[6]}  | {board[7]}  | {board[8]}  |')
-    print(a,b,a,c,a,d,a)
+    b=(f'\n {board[0]}  | {board[1]}  | {board[2]}  ')
+    c=(f'\n {board[3]}  | {board[4]}  | {board[5]}  ')
+    d=(f'\n {board[6]}  | {board[7]}  | {board[8]}  ')
+    print(b,a,c,a,d,)
 
 
 #display_board(test_board)
